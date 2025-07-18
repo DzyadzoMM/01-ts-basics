@@ -3,7 +3,7 @@ interface Product{
   title: string;
   description?: string;
 }
-const product: Product[] = {
+const product: Product = {
   id: 1,
   title: "Tablet",
   description: "Compact and fast",
