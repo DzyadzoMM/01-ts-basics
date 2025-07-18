@@ -1,4 +1,4 @@
-function getFirstElement<T>(arr: T[]): T{
+function getFirstElement<T>(arr: T[]): T | undefined{
   if (arr.length === 0){
     return undefined;
   }
